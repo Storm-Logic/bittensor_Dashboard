@@ -1,0 +1,49 @@
+# macOS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+server/.venv/
+server/venv/
+
+# Node / React
+**/node_modules/
+client/node_modules/
+.pnp/
+.pnp.js
+
+# frontend build and coverage
+**/build/
+client/build/
+coverage/
+client/coverage/
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# local tool caches
+.cache/
+.parcel-cache/
